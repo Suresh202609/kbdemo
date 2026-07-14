@@ -18,4 +18,4 @@ targets:
     workspace:
 
       host:
-        https://dbc-023b9fc0-f897.cloud.databricks.com/
+        https://dbc-023b9fc0-f897.cloud.databricks.com
