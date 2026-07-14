@@ -1,0 +1,24 @@
+resources:
+
+ jobs:
+
+  sales_job:
+
+    name:
+      Retail Sales ETL
+
+
+    tasks:
+
+    - task_key:
+        sales_processing
+
+
+      spark_python_task:
+
+        python_file:
+          ../src/sales_pipeline.py
+
+
+      existing_cluster_id:
+          1234-5678
