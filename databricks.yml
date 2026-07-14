@@ -6,7 +6,7 @@ bundle:
 workspace:
 
   host:
-    https://xxxxx.cloud.databricks.com
+   https://dbc-023b9fc0-f897.cloud.databricks.com
 
 
 targets:
@@ -18,4 +18,4 @@ targets:
     workspace:
 
       host:
-        https://xxxxx.cloud.databricks.com
+        https://dbc-023b9fc0-f897.cloud.databricks.com/
