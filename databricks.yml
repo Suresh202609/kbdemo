@@ -1,0 +1,21 @@
+bundle:
+
+  name: retail-sales
+
+
+workspace:
+
+  host:
+    https://xxxxx.cloud.databricks.com
+
+
+targets:
+
+  dev:
+
+    default: true
+
+    workspace:
+
+      host:
+        https://xxxxx.cloud.databricks.com
