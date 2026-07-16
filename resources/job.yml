@@ -5,5 +5,4 @@ resources:
         - task_key: medical-report
           spark_python_task:
             python_file: ../src/medical_reports/main.py
-          compute:
-            target: serverless
+          environment_key: serverless
