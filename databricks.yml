@@ -1,0 +1,17 @@
+bundle:
+
+  name: medical-report
+
+include:
+
+  - resources/*.yml
+
+targets:
+
+  dev:
+
+    default: true
+
+    workspace:
+
+      host: https://dbc-023b9fc0-f897.cloud.databricks.com
