@@ -8,7 +8,7 @@ resources:
         - task_key: run_notebook
 
           notebook_task:
-            notebook_path: ../notebooks/medical_report
+            notebook_path: ../notebooks/medical_report.py
 
           environment_key: default
 
