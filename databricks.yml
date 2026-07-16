@@ -1,17 +1,15 @@
 bundle:
-
   name: medical-report
 
-include:
-
-  - resources/*.yml
-
-targets:
-
+environments:
   dev:
-
+    workspace:
+      host: https://dbc-023b9fc0-f897.cloud.databricks.com
     default: true
 
+  serverless:
     workspace:
-
       host: https://dbc-023b9fc0-f897.cloud.databricks.com
+    compute:
+      type: serverless
+
