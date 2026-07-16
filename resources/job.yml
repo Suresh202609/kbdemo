@@ -1,0 +1,19 @@
+resources:
+  jobs:
+    medical-job:
+
+      name: medical-report-dev
+
+      tasks:
+        - task_key: run_notebook
+
+          notebook_task:
+            notebook_path: ../notebooks/medical_report
+
+          environment_key: default
+
+      environments:
+        - environment_key: default
+
+          spec:
+            client: "1"
