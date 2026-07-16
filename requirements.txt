@@ -1,3 +1,2 @@
-pyspark
-databricks-sdk
 pytest
+databricks-cli
