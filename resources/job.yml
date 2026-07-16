@@ -10,5 +10,5 @@ resources:
       tasks:
         - task_key: medical-report
           spark_python_task:
-            python_file: src/medical_reports/main.py
+            python_file: ../src/medical_reports/main.py
           job_cluster_key: shared_cluster
